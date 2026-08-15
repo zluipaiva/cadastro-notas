@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.ntvs*
+*.njsproj
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+[Ll]og/
+[Ll]ogs/
+
+# .NET test and coverage output
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# NuGet packages and generated files
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.assets.json
+project.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# .NET publish and deployment artifacts
+[Pp]ublish/
+*.publishproj
+*.pubxml
+*.pubxml.user
+
+# Local development certificates and secrets
+*.pfx
+*.snk
+secrets.json
